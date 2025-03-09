@@ -1,5 +1,5 @@
-from flask import Flask
-from waitress import serve
+from flask import Flask # type: ignore
+from waitress import serve # type: ignore
 
 app = Flask(__name__)
 
